@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Weibo spy by lxyu</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Weibo spy</h1>
+        <p>An simple weibo user timeline crawler and monitor.</p>
+
+        <p class="view"><a href="https://github.com/lxyu/weibo_spy">View the Project on GitHub <small>lxyu/weibo_spy</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/lxyu/weibo_spy/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/lxyu/weibo_spy/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/lxyu/weibo_spy">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>Weibo Spy</h1>
+
+<p>An demo weibo user timeline crawler and monitor build on top of <a href="http://lxyu.github.com/weibo/">weibo</a>.</p>
+
+<p>Can either be used to crawl all user infos or as a background daemon to monitor user changes in realtime.</p>
+
+<h2>Features</h2>
+
+<ol>
+<li>Crawl all user infos, including statuses timeline, comments, user profile based on uid.</li>
+<li>Smart detect new statuses/comments and user profile changes, and avoid duplicate requests.</li>
+<li>Record a changelog on user profile about what changed and when.</li>
+<li>Use mongodb as backend for easy data query and retrival.</li>
+</ol><h2>Usage</h2>
+
+<ol>
+<li>Copy <code>settings.py.sample</code> to <code>settings.py</code>.</li>
+<li>Edit <code>settings.py</code> settings. Refer to <a href="http://lxyu.github.com/weibo/">weibo</a> for more info.</li>
+<li>The 3 scripts inside <code>examples/</code> will work now, get your hand on it and try.</li>
+</ol><h2>Disclaimer</h2>
+
+<p>This project is just a demo mainly for personal use.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/lxyu">lxyu</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-34552833-7");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
