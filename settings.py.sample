@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+
+MONGO_HOST = 'localhost'
+MONGO_PORT = 27017
+MONGO_DB = 'weibo'
+
+WEIBO_API_KEY = ''
+WEIBO_API_SECRET = ''
+WEIBO_REDIRECT_URI = ''
+WEIBO_ACCESS_TOKEN = ''
+WEIBO_EXPIRES_AT = 0
